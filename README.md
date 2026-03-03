@@ -1,5 +1,9 @@
 # 📡 Telecom X — Análisis de Evasión de Clientes (Churn)
 
+<p align="center">
+  <img src="./Img/Badge.png" alt="Insignia Oracle Next Education" width="450"/>
+</p>
+
 Proyecto de análisis de datos desarrollado para **Telecom X** con el objetivo de identificar los factores que llevan a los clientes a cancelar sus servicios, como insumo para el desarrollo de modelos predictivos y estrategias de retención.
 
 ---
