@@ -12,11 +12,14 @@ Proyecto de análisis de datos desarrollado para **Telecom X** con el objetivo d
 
 ```
 📦 TelecomX-Churn
- ┣ 📄 TelecomX_Data.json          # Dataset original (7.267 registros, estructura anidada)
- ┣ 📓 TelecomX_LATAM.ipynb        # Notebook principal con el análisis completo
- ┣ 📄 TelecomX_diccionario.md     # Diccionario de variables del dataset
- ┣ 📄 TelecomX_clean.csv          # Dataset limpio exportado (generado al ejecutar el notebook)
- ┗ 📄 README.md                   # Este archivo
+ ┣ 📁 Data/
+ ┃ ┣ 📄 TelecomX_Data.json      # Dataset original (7.267 registros, estructura anidada)
+ ┃ ┗ 📄 TelecomX_clean.csv      # Dataset limpio exportado (generado al ejecutar el notebook)
+ ┣ 📓 TelecomX_LATAM.ipynb      # Notebook principal con el análisis completo
+ ┣ 📁 Img/
+ ┃ ┗ 📄 Badge.png               # Insignia del proyecto
+ ┣ 📄 LICENSE                   # Licencia del proyecto (CC BY-NC-SA 4.0)
+ ┗ 📄 README.md                 # Este archivo
 ```
 
 ---
@@ -89,9 +92,9 @@ Conclusiones, tabla de recomendaciones estratégicas y próximos pasos — inclu
 ## ▶️ Cómo ejecutar
 
 1. Clonar el repositorio o subir los archivos a Google Colab
-2. Asegurarse de que `TelecomX_Data.json` esté en el mismo directorio que el notebook
+2. Asegurarse de que `Data/TelecomX_Data.json` esté disponible en la ruta correcta
 3. Ejecutar las celdas en orden (Menú → **Runtime > Run all**)
-4. El dataset limpio se exportará automáticamente como `TelecomX_clean.csv`
+4. El dataset limpio se exportará automáticamente como `Data/TelecomX_clean.csv`
 
 > **Nota:** Para usar en Colab desde URL, descomentar la Opción B en la celda de extracción y actualizar el enlace raw del repositorio.
 
